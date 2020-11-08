@@ -3,6 +3,7 @@
 ## Contents
 
 - [Intro](#intro)
+- [Extended User Manual](#extended-user-manual)
 - [Supported processor instructions](#supported-processor-instructions)
 - [Calling Conventions](#calling-conventions)
 - [Output formats](#output-formats)
@@ -12,6 +13,10 @@
 
 UASM is intended to be a free Masm-compatible assembler.
 It supports 16-, 32- and 64-bit code generation and instructions up to `AVX2` and `AVX512F`.
+
+## Extended User Manual
+
+- [UASM Extended User Manual](https://github.com/upiter/uasmac/raw/master/doc/uasm249_ext.pdf) `v2.49` in PDF (326 KB)
 
 ## Supported processor instructions
 
