@@ -34,7 +34,7 @@ chmod +x uasm
 
 4. Link `uasm` file to `/usr/local/bin/`:
 ```sh
-ln -s uasm /usr/local/bin/
+ln -s -f $PWD/uasm /usr/local/bin/
 ```
 
 
