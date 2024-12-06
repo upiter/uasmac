@@ -13,13 +13,15 @@ UASM is a free MASM-compatible assembler based on [JWasm](https://www.japheth.de
 ### Install with Homebrew (recommended)
 
 1. Install [Homebrew](https://brew.sh):
+
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-2. Install UASM:
+2. Install UASM via Homebrew:
 
 ```sh
+brew tap upiter/uasm
 brew install uasm
 ```
 
@@ -91,6 +93,6 @@ UASM's source code is released under the Sybase Open Watcom Public License, whic
 
 ## Retrospective
 
-- JWasm started as a fork of Open Watcom's Wasm in March 2008.
+- [JWasm](https://github.com/Baron-von-Riedesel/JWasm) started as a fork of Open Watcom's Wasm in March 2008.
 - Today, the part of Wasm source lines still contained in JWasm is approximately 15%.
 - UASM is a continued evolution of JWasm.
